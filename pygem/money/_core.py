@@ -236,7 +236,7 @@ def eq09():
     
     Pid(pi) := O(pi)pY
 
-    O   : dividends générosity of corporate sector
+    O   : dividends generosity of corporate sector
             positive, increasing smooth function
             To be calibrated empirically
 
@@ -247,3 +247,24 @@ def eq09():
     """
 
 
+def eq010):
+    """ Inflation dynamics
+    
+    i := p_t/p := Etap x (mc-1)
+
+    i   : inflation rate (1/time)
+    p_t : time derivative of unit consumption price (money / a.u. / time)
+    Etap: relaxation time of p (time)
+    m   : markup>=1   (dimensionless ?)
+    c   : average unit cost of production (money / a.u. ?)
+
+    Background:
+    -----------
+    Inflation (of prices) is the rate of variation of unit consumption prices
+    Constant inflation => exponential growth of prices
+
+    Questions:
+    ----------
+    * Where does the form of this equation come from ?
+    * Where does the relaxation time come from ?    
+    """
